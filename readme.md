@@ -29,7 +29,7 @@ The `core subjects` directory contains detailed question-and-answer problem bank
 
 ```text
 interview-prep/
-├── README.md             <-- (This file)
+├── README.md             
 └── core subjects/        <-- Core CS theoretical subjects
     ├── cn.md
     ├── dbms.md
