@@ -30,25 +30,23 @@ A process and a thread are both units of execution, but they have some key diffe
 
 A process can be thought of as an instance of a running program (program under execution). A thread, on the other hand, is a subset of a process. It represents a sequential flow of execution within a process (independent path of execution of a process). Threads are sometimes referred to as "lightweight processes" since they require fewer resources to create and switch between compared to processes.
 
-* **Isolation:**
-* **Process:** Processes are isolated from each other, meaning they have separate memory spaces. They don't share memory unless explicitly set up to do so.
-* **Thread:** Threads within the same process share the same memory space, making it easier for them to communicate and share data.
+### Process vs. Thread
 
+* **Isolation:**
+    * **Process:** Processes are isolated from each other, meaning they have separate memory spaces. They don't share memory unless explicitly set up to do so.
+    * **Thread:** Threads within the same process share the same memory space, making it easier for them to communicate and share data.
 
 * **Resource Overhead:**
-* **Process:** Processes have higher resource overhead since they require separate memory and resources.
-* **Thread:** Threads have lower resource overhead since they share resources within a process.
-
+    * **Process:** Processes have higher resource overhead since they require separate memory and resources.
+    * **Thread:** Threads have lower resource overhead since they share resources within a process.
 
 * **Creation Time:**
-* **Process:** Creating a new process is typically more time-consuming.
-* **Thread:** Creating a new thread is faster since it leverages the existing process resources.
-
+    * **Process:** Creating a new process is typically more time-consuming.
+    * **Thread:** Creating a new thread is faster since it leverages the existing process resources.
 
 * **Communication:**
-* **Process:** Inter-process communication (IPC) is needed for processes to communicate, which can be more complex.
-* **Thread:** Threads can easily communicate through shared memory, making it simpler.
-
+    * **Process:** Inter-process communication (IPC) is needed for processes to communicate, which can be more complex.
+    * **Thread:** Threads can easily communicate through shared memory, making it simpler.
 
 
 In summary, processes are independent and isolated, while threads share resources within a process, making them more lightweight for tasks that require concurrency and data sharing.
