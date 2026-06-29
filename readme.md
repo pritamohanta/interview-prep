@@ -6,19 +6,19 @@ A repository containing structured resources, problems, and solutions for techni
 
 The `core subjects` directory contains detailed question-and-answer problem banks for fundamental computer science topics:
 
-* **[Operating Systems (OS)](https://www.google.com/search?q=./core%2520subjects/os.md)**
+* **[Operating Systems (OS)](/core%20subjects/os.md)**
 * Process management, memory allocation, virtual memory, synchronization (semaphores/mutex), CPU scheduling, and cache algorithms.
 
 
-* **[Database Management Systems (DBMS)](https://www.google.com/search?q=./core%2520subjects/dbms.md)**
+* **[Database Management Systems (DBMS)](/core%20subjects/dbms.md)**
 * Relational models, SQL queries, normalization, ACID properties, transactions, and indexing.
 
 
-* **[Computer Networks (CN)](https://www.google.com/search?q=./core%2520subjects/cn.md)**
+* **[Computer Networks (CN)](/core%20subjects/cn.md)**
 * OSI/TCP-IP models, routing protocols, TCP/UDP mechanisms, HTTP/HTTPS, and DNS.
 
 
-* **[Object-Oriented Programming (OOPs)](https://www.google.com/search?q=./core%2520subjects/oops.md)**
+* **[Object-Oriented Programming (OOPs)](/core%20subjects/oops.md)**
 * Encapsulation, inheritance, polymorphism, abstraction, and real-world design scenarios.
 
 
